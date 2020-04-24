@@ -1,0 +1,9 @@
+npm install shelljs --save-dev
+
+  "scripts": {
+    "copy": "node pre-build.js",
+    "start": "npm run copy && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
